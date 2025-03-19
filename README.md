@@ -8,7 +8,7 @@
 2. Insertion Sort
 3. Shell Sort
 <br>
-[선형 정렬 알고리즘]<br>
+[선형 정렬 알고리즘]
 1. Counting Sort
 2. Bucket Sort
 3. Radix Sort
