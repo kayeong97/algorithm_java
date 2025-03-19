@@ -9,10 +9,10 @@
 3. Shell Sort
 <br>
 [선형 정렬 알고리즘]<br>
-5. Counting Sort
-6. Bucket Sort
-7. Radix Sort
-8. Merge Sort
+5. Counting Sort<br>
+6. Bucket Sort<br>
+7. Radix Sort<br>
+8. Merge Sort<br>
 ### 외부 정렬
 1. Binary Sort/Merge
 2. Balanced Binary Sort/Merge
