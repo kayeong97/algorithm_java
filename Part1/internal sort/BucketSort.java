@@ -1,25 +1,25 @@
 public class BucketSort extends AbstractSort {
   public void sort(Comparable[] array) {
     if (array == null || array.length == 0) return;
-    int bucketCount = (int) Math.sqrt(array.length);
+    int bucketCount = (int) Math.sqrt(array.length); // 버킷의 개수를 데이터 개수의 제곱근으로 설정
     List<List<Comparable>> buckets = new ArrayList<>(bucketCount);
 
     for (int i = 0; i < bucketCount; i++) 
       buckets.add(new ArrayList<>());
     
-    Comparable minValue = getMinValue(array);
-    Comparable maxValue = getMaxValue(array);
+    Comparable minValue = getMinValue(array); // 최솟값 찾기
+    Comparable maxValue = getMaxValue(array); // 최댓값 찾기
 
-    for (Comparable item : array) {
+    for (Comparable item : array) { // 각 요소를 돌면서 적절한 버킷에 배치
       int bucketIndex = getBucketIndex(item, minValue, maxValue, bucketCount);
       buckets.get(bucketIndex).add(item);
     }
 
     int index = 0;
     for (List<Comparable> bucket : buckets) {
-      Collections.sort(bucket);
+      Collections.sort(bucket); // 각 버킷을 정렬
       for (Comparable item : bucket) {
-        array[index++] = item;
+        array[index++] = item; // 원본 배열에 복사
       }
     }
   }
