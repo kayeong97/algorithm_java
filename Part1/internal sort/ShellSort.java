@@ -2,6 +2,7 @@ public class Shell extends AbstractSort{
   public static void sort(Comparable[] a){
     int N = a.length;
     int h = 1;
+    
     while (h < N/3) h = 3*h + 1;
     // h는 1, 4, 13, 40, ...
     
