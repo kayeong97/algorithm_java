@@ -7,11 +7,12 @@
 1. Selection Sort
 2. Insertion Sort
 3. Shell Sort
-[선형 정렬 알고리즘]
-4. Counting Sort
-5. Bucket Sort
-6. Radix Sort
-7. Merge Sort
+<br>
+[선형 정렬 알고리즘]<br>
+5. Counting Sort
+6. Bucket Sort
+7. Radix Sort
+8. Merge Sort
 ### 외부 정렬
 1. Binary Sort/Merge
 2. Balanced Binary Sort/Merge
