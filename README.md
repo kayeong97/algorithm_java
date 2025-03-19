@@ -13,6 +13,7 @@
 2. Bucket Sort
 3. Radix Sort
 4. Merge Sort
+<br>
 ### 외부 정렬
 1. Binary Sort/Merge
 2. Balanced Binary Sort/Merge
