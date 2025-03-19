@@ -3,9 +3,11 @@
 
 ## 1장 Sort
 ### 내부 정렬
+[키의 비교에 기반한 알고리즘]
 1. Selection Sort
 2. Insertion Sort
 3. Shell Sort
+[선형 정렬 알고리즘]
 4. Counting Sort
 5. Bucket Sort
 6. Radix Sort
